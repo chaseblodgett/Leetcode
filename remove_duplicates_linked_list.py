@@ -18,8 +18,6 @@ class Solution(object):
         
         while curr:
             if prev_val != curr.val:
-                print(prev_val)
-                print(curr.val)
                 prev_diff_node.next = curr
                 prev_diff_node = prev_diff_node.next
             else:
