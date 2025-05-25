@@ -8,12 +8,8 @@ class Solution(object):
         """
 
 
-        nums1_set = set()
-        nums2_set = set()
-        for i in nums1:
-            nums1_set.add(i)
-        for i in nums2:
-            nums2_set.add(i)
+        nums1_set = set(nums1)
+        nums2_set = set(nums2)
         
         ret = []
         for i in range(1001):
