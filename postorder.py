@@ -9,7 +9,6 @@ class Solution(object):
         if not root:
             return
         
-        
         self.postorder_rec(root.left, res)
         self.postorder_rec(root.right, res)
         res.append(root.val)
